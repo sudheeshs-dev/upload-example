@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/test', function () {
   echo "Test";
 });
+
+Route::get('/test1', function () {
+    echo "Test1";
+  });
